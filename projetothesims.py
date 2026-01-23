@@ -11,7 +11,7 @@ generos = ['Masculino', 'Feminino']
 
 criaturas = [
     'Humano', 'Vampiro', 'Sereia',
-    'Fada', 'Bruxo', 'Lobisomem', 'Alien'
+    'Fada', 'Feiticeiro', 'Lobisomem', 'Alien'
 ]
 
 idades = [
@@ -113,3 +113,4 @@ while True:
             exit()
         else:
             print('\nDigite apenas S para sim ou N para não!\n')
+
