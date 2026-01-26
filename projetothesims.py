@@ -78,6 +78,7 @@ def criar_familia(qtd):
         if adultos >= 1:
             return familia
 
+# Programa principal
 print('\n🎲 GERADOR DE FAMÍLIA - THE SIMS 🎲')
 sleep(1)
 
@@ -113,4 +114,5 @@ while True:
             exit()
         else:
             print('\nDigite apenas S para sim ou N para não!\n')
+
 
