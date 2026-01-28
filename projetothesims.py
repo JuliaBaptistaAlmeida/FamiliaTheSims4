@@ -111,6 +111,7 @@ conflitos_tracos = [
 
 ]
 
+# Funções para escolher traços
 def tem_conflito(tracos):
     conjunto = set(tracos)
     for conflito in conflitos_tracos:
@@ -118,7 +119,6 @@ def tem_conflito(tracos):
             return True
     return False
 
-# Funções para escolher traços
 def sortear_tracos_pessoa(idade):
     if idade == 'Bebê de Colo':
         return random.sample(traços_bebedecolo, 1)
